@@ -1,0 +1,235 @@
+{
+  "power_strike": {
+    "name": "Power Strike",
+    "description": "Tấn công mạnh mẽ gây 200% damage",
+    "type": "active",
+    "cost": 15,
+    "cooldown": 3,
+    "damage": "2x attack",
+    "class": "fighter"
+  },
+  "guard": {
+    "name": "Guard",
+    "description": "Tăng 50% defense trong 3 turn",
+    "type": "active",
+    "cost": 10,
+    "cooldown": 5,
+    "effect": "defense_boost",
+    "duration": 3,
+    "class": "fighter"
+  },
+  "berserker_rage": {
+    "name": "Berserker Rage",
+    "description": "Tăng 100% attack nhưng giảm 50% defense",
+    "type": "active",
+    "cost": 25,
+    "cooldown": 10,
+    "effect": "berserker_mode",
+    "duration": 5,
+    "class": "fighter"
+  },
+  "weapon_mastery": {
+    "name": "Weapon Mastery",
+    "description": "Tăng 15% damage khi sử dụng vũ khí",
+    "type": "passive",
+    "effect": "weapon_damage_boost",
+    "value": 0.15,
+    "class": "fighter"
+  },
+  "fireball": {
+    "name": "Fireball",
+    "description": "Phóng cầu lửa gây damage phép thuật",
+    "type": "active",
+    "cost": 20,
+    "cooldown": 2,
+    "damage": "2.5x intelligence",
+    "element": "fire",
+    "class": "mage"
+  },
+  "ice_shard": {
+    "name": "Ice Shard",
+    "description": "Kiến băng gây damage và làm chậm",
+    "type": "active",
+    "cost": 18,
+    "cooldown": 2,
+    "damage": "2x intelligence",
+    "element": "ice",
+    "effect": "slow",
+    "class": "mage"
+  },
+  "magic_shield": {
+    "name": "Magic Shield",
+    "description": "Tạo khiên phép thuật hấp thụ damage",
+    "type": "active",
+    "cost": 30,
+    "cooldown": 8,
+    "effect": "magic_shield",
+    "duration": 5,
+    "class": "mage"
+  },
+  "teleport": {
+    "name": "Teleport",
+    "description": "Dịch chuyển tức thời, tránh damage",
+    "type": "active",
+    "cost": 25,
+    "cooldown": 6,
+    "effect": "dodge_next_attack",
+    "class": "mage"
+  },
+  "mana_efficiency": {
+    "name": "Mana Efficiency",
+    "description": "Giảm 20% chi phí mana cho tất cả skill",
+    "type": "passive",
+    "effect": "mana_cost_reduction",
+    "value": 0.2,
+    "class": "mage"
+  },
+  "stealth": {
+    "name": "Stealth",
+    "description": "Ẩn hình và next attack sẽ crit",
+    "type": "active",
+    "cost": 20,
+    "cooldown": 8,
+    "effect": "stealth_crit",
+    "class": "assassin"
+  },
+  "critical_strike": {
+    "name": "Critical Strike",
+    "description": "Tấn công chắc chắn crit với 300% damage",
+    "type": "active",
+    "cost": 25,
+    "cooldown": 5,
+    "damage": "3x attack",
+    "guaranteed_crit": true,
+    "class": "assassin"
+  },
+  "poison_blade": {
+    "name": "Poison Blade",
+    "description": "Vũ khí gây thêm poison damage theo thời gian",
+    "type": "active",
+    "cost": 15,
+    "cooldown": 4,
+    "effect": "poison",
+    "duration": 5,
+    "class": "assassin"
+  },
+  "shadow_step": {
+    "name": "Shadow Step",
+    "description": "Di chuyển nhanh và tăng 30% dodge",
+    "type": "active",
+    "cost": 18,
+    "cooldown": 6,
+    "effect": "dodge_boost",
+    "duration": 3,
+    "class": "assassin"
+  },
+  "heal": {
+    "name": "Heal",
+    "description": "Hồi phục HP cho bản thân hoặc đồng minh",
+    "type": "active",
+    "cost": 20,
+    "cooldown": 2,
+    "healing": "3x intelligence",
+    "class": "healer"
+  },
+  "group_heal": {
+    "name": "Group Heal",
+    "description": "Hồi phục HP cho toàn bộ party",
+    "type": "active",
+    "cost": 40,
+    "cooldown": 8,
+    "healing": "2x intelligence",
+    "target": "party",
+    "class": "healer"
+  },
+  "blessing": {
+    "name": "Blessing",
+    "description": "Tăng tất cả stats cho party trong 10 turn",
+    "type": "active",
+    "cost": 35,
+    "cooldown": 15,
+    "effect": "stat_boost",
+    "duration": 10,
+    "target": "party",
+    "class": "healer"
+  },
+  "shadow_extraction": {
+    "name": "Shadow Extraction",
+    "description": "Trích xuất shadow từ kẻ thù đã chết",
+    "type": "special",
+    "cost": 50,
+    "cooldown": 0,
+    "effect": "extract_shadow",
+    "class": "shadow_monarch"
+  },
+  "shadow_army": {
+    "name": "Shadow Army",
+    "description": "Gọi tất cả shadow để chiến đấu",
+    "type": "active",
+    "cost": 80,
+    "cooldown": 20,
+    "effect": "summon_all_shadows",
+    "duration": 10,
+    "class": "shadow_monarch"
+  },
+  "monarch_domain": {
+    "name": "Monarch Domain",
+    "description": "Tạo vùng lực lượng tăng 100% sức mạnh",
+    "type": "active",
+    "cost": 100,
+    "cooldown": 30,
+    "effect": "domain_expansion",
+    "duration": 15,
+    "class": "shadow_monarch"
+  },
+  "shadow_exchange": {
+    "name": "Shadow Exchange",
+    "description": "Đổi chỗ vị trí với bất kỳ shadow nào",
+    "type": "active",
+    "cost": 30,
+    "cooldown": 5,
+    "effect": "position_swap",
+    "class": "shadow_monarch"
+  },
+  "ruler_authority": {
+    "name": "Ruler's Authority",
+    "description": "Điều khiển vật thể bằng telekinesis",
+    "type": "active",
+    "cost": 40,
+    "cooldown": 8,
+    "damage": "4x intelligence",
+    "class": "shadow_monarch"
+  },
+  "shadow_strike": {
+    "name": "Shadow Strike",
+    "description": "Tấn công từ bóng tối",
+    "type": "active",
+    "cost": 10,
+    "damage": "1.5x attack",
+    "shadow_skill": true
+  },
+  "shadow_defense": {
+    "name": "Shadow Defense",
+    "description": "Tăng defense khi ở trong bóng tối",
+    "type": "passive",
+    "effect": "defense_boost",
+    "value": 0.3,
+    "shadow_skill": true
+  },
+  "shadow_speed": {
+    "name": "Shadow Speed",
+    "description": "Tăng tốc độ di chuyển",
+    "type": "passive",
+    "effect": "agility_boost",
+    "value": 0.25,
+    "shadow_skill": true
+  },
+  "shadow_heal": {
+    "name": "Shadow Heal",
+    "description": "Tự động hồi HP khi bị thương",
+    "type": "passive",
+    "effect": "auto_heal",
+    "value": 0.1,
+    "shadow_skill": true
+  }
+}

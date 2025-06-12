@@ -1,0 +1,118 @@
+{
+  "craft_iron_sword": {
+    "name": "Rèn Iron Sword",
+    "description": "Rèn tạo thanh kiếm bằng sắt",
+    "result": {
+      "id": "iron_sword",
+      "name": "Iron Sword"
+    },
+    "quantity": 1,
+    "materials": {
+      "iron_ore": 5,
+      "magic_crystal": 1
+    },
+    "cost": 200,
+    "successRate": 0.8,
+    "requirements": {
+      "level": 5
+    }
+  },
+  "craft_steel_armor": {
+    "name": "Rèn Steel Armor",
+    "description": "Rèn tạo giáp thép cao cấp",
+    "result": {
+      "id": "steel_armor",
+      "name": "Steel Armor"
+    },
+    "quantity": 1,
+    "materials": {
+      "steel_ore": 8,
+      "magic_crystal": 2,
+      "rare_gem": 1
+    },
+    "cost": 500,
+    "successRate": 0.7,
+    "requirements": {
+      "level": 10
+    }
+  },
+  "craft_shadow_blade": {
+    "name": "Rèn Shadow Blade",
+    "description": "Rèn tạo vũ khí truyền thuyết của Shadow Monarch",
+    "result": {
+      "id": "shadow_blade",
+      "name": "Shadow Blade"
+    },
+    "quantity": 1,
+    "materials": {
+      "mithril_ore": 10,
+      "shadow_essence": 15,
+      "rare_gem": 5,
+      "dark_crystal": 3
+    },
+    "cost": 2000,
+    "successRate": 0.4,
+    "requirements": {
+      "level": 20,
+      "class": "shadow_monarch"
+    }
+  },
+  "craft_health_potion": {
+    "name": "Pha Health Potion",
+    "description": "Pha chế thuốc hồi máu",
+    "result": {
+      "id": "health_potion",
+      "name": "Health Potion"
+    },
+    "quantity": 5,
+    "materials": {
+      "herb": 3,
+      "water": 1
+    },
+    "cost": 50,
+    "successRate": 0.95,
+    "requirements": {
+      "level": 1
+    }
+  },
+  "craft_awakening_stone": {
+    "name": "Rèn Awakening Stone",
+    "description": "Tạo ra đá thức tỉnh từ nguyên liệu hiếm",
+    "result": {
+      "id": "awakening_stone",
+      "name": "Awakening Stone"
+    },
+    "quantity": 1,
+    "materials": {
+      "mithril_ore": 20,
+      "rare_gem": 10,
+      "magic_crystal": 15,
+      "dragon_scale": 5
+    },
+    "cost": 5000,
+    "successRate": 0.3,
+    "requirements": {
+      "level": 25,
+      "awakeningLevel": 2
+    }
+  },
+  "craft_exp_potion": {
+    "name": "Pha Experience Potion",
+    "description": "Pha chế thuốc tăng kinh nghiệm",
+    "result": {
+      "id": "exp_potion",
+      "name": "Experience Potion"
+    },
+    "quantity": 3,
+    "materials": {
+      "magic_crystal": 3,
+      "rare_herb": 2,
+      "monster_essence": 5
+    },
+    "cost": 300,
+    "successRate": 0.8,
+    "requirements": {
+      "level": 8
+    }
+  }
+}

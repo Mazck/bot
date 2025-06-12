@@ -1,0 +1,71 @@
+{
+  "100038946913086": {
+    "id": "100038946913086",
+    "name": "Hunter",
+    "level": 1,
+    "exp": 0,
+    "expToNext": 100,
+    "strength": 10,
+    "agility": 10,
+    "intelligence": 10,
+    "vitality": 10,
+    "luck": 5,
+    "hp": 100,
+    "maxHp": 100,
+    "mana": 50,
+    "maxMana": 50,
+    "attack": 15,
+    "defense": 8,
+    "critRate": 5,
+    "critDamage": 150,
+    "class": "none",
+    "awakened": false,
+    "awakeningLevel": 0,
+    "statPoints": 0,
+    "skillPoints": 0,
+    "gold": 500,
+    "diamonds": 10,
+    "eventTokens": 0,
+    "inventory": {
+      "basic_sword": 1,
+      "health_potion": 5,
+      "mana_potion": 3
+    },
+    "equipment": {
+      "weapon": null,
+      "armor": null,
+      "helmet": null,
+      "gloves": null,
+      "boots": null,
+      "ring1": null,
+      "ring2": null,
+      "necklace": null
+    },
+    "skills": [],
+    "passiveSkills": [],
+    "hiddenSkills": [],
+    "quests": {
+      "active": [],
+      "completed": [],
+      "daily": []
+    },
+    "party": null,
+    "friends": [],
+    "shadows": [],
+    "shadowSlots": 3,
+    "achievements": [],
+    "statistics": {
+      "monstersKilled": 0,
+      "dungeonsCleared": 0,
+      "questsCompleted": 0,
+      "itemsForged": 0,
+      "pvpWins": 0,
+      "pvpLosses": 0
+    },
+    "lastDaily": 0,
+    "lastHunt": 0,
+    "lastDungeon": 0,
+    "created": 1749696499123,
+    "lastActive": 1749696499123
+  }
+}

@@ -70,19 +70,6 @@ module.exports = function ({ api, models, event }) {
                 "error"
             );
         }
-
-        // Log current time for debugging (every minute)
-        setInterval(() => {
-            const now = new Date();
-            if (now.getSeconds() === 0) {
-                console.log(`[AutoMessage] 🕐 Current time: ${now.toLocaleString()}`);
-            }
-        }, 1000);
-
-        //////////////////////////////////////////////////////////////////////
-        //======================== End AutoMessage ======================//
-        //////////////////////////////////////////////////////////////////////
-
     })();
 
     logger(

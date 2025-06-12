@@ -1,0 +1,252 @@
+{
+  "fighter": {
+    "name": "Fighter",
+    "description": "Chiến binh cận chiến với sức mạnh và sự bền bỉ",
+    "requirements": {
+      "level": 5
+    },
+    "bonuses": {
+      "strength": 5,
+      "vitality": 5,
+      "maxHp": 50,
+      "attack": 15,
+      "defense": 10
+    },
+    "skills": [
+      "power_strike",
+      "guard",
+      "berserker_rage"
+    ],
+    "passiveSkills": [
+      "weapon_mastery"
+    ],
+    "hidden": false
+  },
+  "mage": {
+    "name": "Mage",
+    "description": "Pháp sư lưu đãn với sức mạnh phép thuật vô cùng",
+    "requirements": {
+      "level": 5
+    },
+    "bonuses": {
+      "intelligence": 8,
+      "agility": 2,
+      "maxMana": 80,
+      "attack": 20,
+      "critRate": 10
+    },
+    "skills": [
+      "fireball",
+      "ice_shard",
+      "magic_shield",
+      "teleport"
+    ],
+    "passiveSkills": [
+      "mana_efficiency"
+    ],
+    "hidden": false
+  },
+  "assassin": {
+    "name": "Assassin",
+    "description": "Sát thủ lạnh lùng, tấn công từ bóng tối",
+    "requirements": {
+      "level": 8
+    },
+    "bonuses": {
+      "agility": 8,
+      "luck": 3,
+      "critRate": 20,
+      "critDamage": 50,
+      "attack": 10
+    },
+    "skills": [
+      "stealth",
+      "critical_strike",
+      "poison_blade",
+      "shadow_step"
+    ],
+    "passiveSkills": [
+      "stealth_mastery",
+      "critical_mastery"
+    ],
+    "hidden": false
+  },
+  "healer": {
+    "name": "Healer",
+    "description": "Mục sư chữa lành và hỗ trợ đồng đội",
+    "requirements": {
+      "level": 6
+    },
+    "bonuses": {
+      "intelligence": 5,
+      "vitality": 5,
+      "maxMana": 60,
+      "maxHp": 40
+    },
+    "skills": [
+      "heal",
+      "group_heal",
+      "blessing",
+      "purify"
+    ],
+    "passiveSkills": [
+      "healing_mastery",
+      "mana_regeneration"
+    ],
+    "hidden": false
+  },
+  "shadow_monarch": {
+    "name": "Shadow Monarch",
+    "description": "Chúa tể của bóng tối, chỉ huy quân đội bóng",
+    "requirements": {
+      "level": 20,
+      "quest": "awaken_shadow",
+      "item": "shadow_heart",
+      "monstersKilled": 100,
+      "awakeningLevel": 1
+    },
+    "bonuses": {
+      "strength": 10,
+      "agility": 10,
+      "intelligence": 10,
+      "vitality": 8,
+      "luck": 5,
+      "maxHp": 100,
+      "maxMana": 100,
+      "attack": 50,
+      "defense": 30,
+      "critRate": 25,
+      "critDamage": 75
+    },
+    "skills": [
+      "shadow_extraction",
+      "shadow_army",
+      "monarch_domain",
+      "shadow_exchange",
+      "ruler_authority"
+    ],
+    "passiveSkills": [
+      "shadow_mastery",
+      "death_immunity",
+      "army_commander"
+    ],
+    "hidden": true
+  },
+  "necromancer": {
+    "name": "Necromancer",
+    "description": "Pháp sư bản tối chỉ huy sinh vật chết",
+    "requirements": {
+      "level": 15,
+      "class": "mage",
+      "quest": "embrace_darkness",
+      "item": "necronomicon"
+    },
+    "bonuses": {
+      "intelligence": 12,
+      "vitality": 3,
+      "maxMana": 120,
+      "attack": 30,
+      "critRate": 15
+    },
+    "skills": [
+      "raise_undead",
+      "death_magic",
+      "soul_drain",
+      "bone_prison"
+    ],
+    "passiveSkills": [
+      "undead_mastery",
+      "death_resistance"
+    ],
+    "hidden": true
+  },
+  "rogue_knight": {
+    "name": "Rogue Knight",
+    "description": "Hiệp sĩ sa ngã kết hợp sức mạnh và ma thuật bản tối",
+    "requirements": {
+      "level": 18,
+      "class": "fighter",
+      "quest": "fallen_knight",
+      "dungeonsCleared": 10
+    },
+    "bonuses": {
+      "strength": 8,
+      "agility": 6,
+      "intelligence": 4,
+      "vitality": 6,
+      "maxHp": 80,
+      "maxMana": 40,
+      "attack": 35,
+      "defense": 25
+    },
+    "skills": [
+      "dark_strike",
+      "unholy_aura",
+      "soul_blade",
+      "nightmare"
+    ],
+    "passiveSkills": [
+      "dark_armor",
+      "fear_immunity"
+    ],
+    "hidden": true
+  },
+  "true_healer": {
+    "name": "True Healer",
+    "description": "Thánh nhân có khả năng chữa lành tuyệt đối",
+    "requirements": {
+      "level": 20,
+      "class": "healer",
+      "quest": "saint_awakening",
+      "item": "holy_grail"
+    },
+    "bonuses": {
+      "intelligence": 8,
+      "vitality": 10,
+      "luck": 7,
+      "maxMana": 150,
+      "maxHp": 80
+    },
+    "skills": [
+      "divine_heal",
+      "resurrection",
+      "holy_light",
+      "miracle"
+    ],
+    "passiveSkills": [
+      "divine_protection",
+      "infinite_mana",
+      "healing_aura"
+    ],
+    "hidden": true
+  },
+  "beast_master": {
+    "name": "Beast Master",
+    "description": "Người cầm thú có khả năng chỉ huy mọi loại quái vật",
+    "requirements": {
+      "level": 16,
+      "quest": "tame_the_wild",
+      "monstersKilled": 50,
+      "item": "beast_crystal"
+    },
+    "bonuses": {
+      "agility": 7,
+      "vitality": 6,
+      "luck": 5,
+      "intelligence": 4,
+      "maxHp": 60,
+      "attack": 25
+    },
+    "skills": [
+      "beast_taming",
+      "wild_instinct",
+      "pack_leader",
+      "animal_communication"
+    ],
+    "passiveSkills": [
+      "beast_bond",
+      "nature_resistance"
+    ],
+    "hidden": true
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "first_awakening": {
+    "name": "Lần Thức Tỉnh Đầu Tiên",
+    "description": "Chứng minh bạn có đủ sức mạnh để trở thành Hunter",
+    "type": "chain",
+    "steps": [
+      "Đánh bại 5 Goblin",
+      "Thu thập 3 Iron Ore",
+      "Đạt level 5"
+    ],
+    "rewards": {
+      "exp": 100,
+      "gold": 200,
+      "items": [
+        "awakening_stone"
+      ],
+      "skillPoints": 2
+    },
+    "requirements": {
+      "level": 1
+    },
+    "hidden": false
+  },
+  "first_equipment": {
+    "name": "Trang Bị Đầu Tiên",
+    "description": "Trang bị vũ khí và giáp áo để chuẩn bị cho hành trình",
+    "type": "chain",
+    "steps": [
+      "Trang bị 1 weapon",
+      "Trang bị 1 armor",
+      "Nâng cấp 1 item lên +1"
+    ],
+    "rewards": {
+      "exp": 75,
+      "gold": 150,
+      "items": [
+        "iron_sword",
+        "leather_armor"
+      ]
+    },
+    "requirements": {
+      "level": 3
+    },
+    "hidden": false
+  },
+  "party_formation": {
+    "name": "Thành Lập Đội Nhóm",
+    "description": "Học cách làm việc nhóm để tăng lòng dungeon",
+    "type": "chain",
+    "steps": [
+      "Tạo hoặc tham gia 1 party",
+      "Hoàn thành 1 party hunt",
+      "Hoàn thành 1 party dungeon"
+    ],
+    "rewards": {
+      "exp": 200,
+      "gold": 300,
+      "items": [
+        "exp_potion"
+      ],
+      "skillPoints": 1
+    },
+    "requirements": {
+      "level": 8
+    },
+    "hidden": false
+  },
+  "awaken_shadow": {
+    "name": "Thức Tỉnh Sức Mạnh Bóng Tối",
+    "description": "Khám phá bí mật về sức mạnh Shadow Monarch",
+    "type": "chain",
+    "steps": [
+      "Đánh bại 20 Shadow Beast",
+      "Thu thập 15 Shadow Essence",
+      "Hoàn thành Dark Dungeon",
+      "Tìm Shadow Heart trong Deep Abyss"
+    ],
+    "rewards": {
+      "exp": 1000,
+      "gold": 5000,
+      "items": [
+        "shadow_heart"
+      ],
+      "unlocks": [
+        "class_shadow_monarch"
+      ],
+      "skillPoints": 5
+    },
+    "requirements": {
+      "level": 15,
+      "questCompleted": "first_awakening"
+    },
+    "hidden": true,
+    "hiddenRequirements": {
+      "monstersKilled": 50,
+      "dungeonsCleared": 3,
+      "hasItem": "shadow_essence"
+    }
+  },
+  "embrace_darkness": {
+    "name": "Đón Nhận Bóng Tối",
+    "description": "Từ bỏ ánh sáng để có được sức mạnh tuyệt đối",
+    "type": "chain",
+    "steps": [
+      "Sử dụng Dark Magic 50 lần",
+      "Đánh bại 10 Undead monsters",
+      "Tìm Necronomicon trong Forbidden Library"
+    ],
+    "rewards": {
+      "exp": 800,
+      "gold": 3000,
+      "items": [
+        "necronomicon"
+      ],
+      "unlocks": [
+        "class_necromancer"
+      ],
+      "skillPoints": 4
+    },
+    "requirements": {
+      "level": 12,
+      "class": "mage"
+    },
+    "hidden": true
+  },
+  "fallen_knight": {
+    "name": "Hiệp Sĩ Sa Ngã",
+    "description": "Tìm hiểu về những hiệp sĩ đã rơi vào bóng tối",
+    "type": "chain",
+    "steps": [
+      "Đánh bại Dark Knight boss",
+      "Thu thập Cursed Armor pieces",
+      "Hoàn thành Corrupted Castle dungeon"
+    ],
+    "rewards": {
+      "exp": 600,
+      "gold": 2500,
+      "items": [
+        "dark_armor_set"
+      ],
+      "unlocks": [
+        "class_rogue_knight"
+      ],
+      "skillPoints": 3
+    },
+    "requirements": {
+      "level": 15,
+      "class": "fighter",
+      "dungeonsCleared": 8
+    },
+    "hidden": true
+  },
+  "saint_awakening": {
+    "name": "Thức Tỉnh Thánh Nhân",
+    "description": "Đạt được sức mạnh chữa lành tuyệt đối",
+    "type": "chain",
+    "steps": [
+      "Chữa lành 100 người",
+      "Hồi sinh 1 người đã chết",
+      "Tìm Holy Grail trong Sacred Temple"
+    ],
+    "rewards": {
+      "exp": 1200,
+      "gold": 4000,
+      "items": [
+        "holy_grail"
+      ],
+      "unlocks": [
+        "class_true_healer"
+      ],
+      "skillPoints": 6
+    },
+    "requirements": {
+      "level": 18,
+      "class": "healer"
+    },
+    "hidden": true
+  },
+  "merchant_request": {
+    "name": "Yêu Cầu Của Thương Gia",
+    "description": "Giao hàng cho thương gia ở thành phố bên",
+    "type": "delivery",
+    "target": {
+      "item": "rare_gem",
+      "amount": 3,
+      "npc": "merchant_bob"
+    },
+    "rewards": {
+      "exp": 150,
+      "gold": 400,
+      "items": [
+        "steel_armor"
+      ]
+    },
+    "requirements": {
+      "level": 10
+    },
+    "hidden": false
+  },
+  "blacksmith_apprentice": {
+    "name": "Học Việc Thợ Rèn",
+    "description": "Học cách rèn tạo trang bị từ blacksmith",
+    "type": "chain",
+    "steps": [
+      "Rèn 5 Iron Sword",
+      "Nâng cấp 3 item lên +5",
+      "Tạo 1 Epic item"
+    ],
+    "rewards": {
+      "exp": 300,
+      "gold": 600,
+      "items": [
+        "master_hammer"
+      ],
+      "skillPoints": 2
+    },
+    "requirements": {
+      "level": 12
+    },
+    "hidden": false
+  },
+  "weekly_hunting": {
+    "name": "Săn Quái Hàng Tuần",
+    "description": "Đánh bại 50 quái vật bất kỳ trong tuần",
+    "type": "kill",
+    "target": {
+      "monster": "any",
+      "amount": 50
+    },
+    "rewards": {
+      "exp": 500,
+      "gold": 1000,
+      "items": [
+        "exp_potion",
+        "rare_gem"
+      ],
+      "eventTokens": 10
+    },
+    "requirements": {
+      "level": 8
+    },
+    "recurring": "weekly",
+    "hidden": false
+  },
+  "monthly_dungeon": {
+    "name": "Chinh Phục Dungeon",
+    "description": "Hoàn thành 20 dungeon trong tháng",
+    "type": "dungeon",
+    "target": {
+      "amount": 20
+    },
+    "rewards": {
+      "exp": 1000,
+      "gold": 2500,
+      "items": [
+        "legendary_box",
+        "skill_book_rare"
+      ],
+      "diamonds": 5,
+      "eventTokens": 25
+    },
+    "requirements": {
+      "level": 15
+    },
+    "recurring": "monthly",
+    "hidden": false
+  }
+}

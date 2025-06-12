@@ -1,0 +1,279 @@
+{
+  "goblin_cave": {
+    "name": "Goblin Cave",
+    "description": "Hang động đầy Goblin hung dữ",
+    "level": 3,
+    "difficulty": "easy",
+    "type": "normal",
+    "floors": 3,
+    "maxParty": 4,
+    "monstersPerFloor": 2,
+    "monsters": [
+      "goblin",
+      "goblin"
+    ],
+    "boss": {
+      "name": "Goblin King",
+      "level": 5,
+      "hp": 400,
+      "attack": 50,
+      "defense": 25,
+      "agility": 15,
+      "expReward": 100,
+      "goldReward": 150,
+      "drops": [
+        {
+          "itemId": "iron_sword",
+          "chance": 0.4
+        },
+        {
+          "itemId": "goblin_crown",
+          "chance": 0.2
+        },
+        {
+          "itemId": "steel_ore",
+          "chance": 0.6
+        }
+      ]
+    },
+    "rewards": {
+      "exp": 150,
+      "gold": 200,
+      "items": [
+        "health_potion",
+        "iron_ore"
+      ]
+    },
+    "requirements": {
+      "level": 3
+    },
+    "hidden": false
+  },
+  "skeleton_crypt": {
+    "name": "Skeleton Crypt",
+    "description": "Lăng mộ cổ đầy xương người",
+    "level": 6,
+    "difficulty": "normal",
+    "type": "undead",
+    "floors": 4,
+    "maxParty": 4,
+    "monstersPerFloor": 3,
+    "monsters": [
+      "skeleton",
+      "skeleton"
+    ],
+    "boss": {
+      "name": "Skeleton Lord",
+      "level": 8,
+      "hp": 600,
+      "attack": 70,
+      "defense": 30,
+      "agility": 20,
+      "expReward": 150,
+      "goldReward": 250,
+      "drops": [
+        {
+          "itemId": "steel_sword",
+          "chance": 0.3
+        },
+        {
+          "itemId": "bone_armor",
+          "chance": 0.25
+        },
+        {
+          "itemId": "magic_crystal",
+          "chance": 0.5
+        }
+      ]
+    },
+    "rewards": {
+      "exp": 200,
+      "gold": 300,
+      "items": [
+        "mana_potion",
+        "steel_ore"
+      ]
+    },
+    "requirements": {
+      "level": 6
+    },
+    "hidden": false
+  },
+  "dark_forest": {
+    "name": "Dark Forest",
+    "description": "Khu rừng tối tăm đầy quái vật bóng tối",
+    "level": 10,
+    "difficulty": "hard",
+    "type": "shadow",
+    "floors": 5,
+    "maxParty": 6,
+    "monstersPerFloor": 4,
+    "monsters": [
+      "shadow_beast",
+      "dark_knight"
+    ],
+    "boss": {
+      "name": "Forest Guardian",
+      "level": 12,
+      "hp": 1000,
+      "attack": 95,
+      "defense": 45,
+      "agility": 35,
+      "expReward": 300,
+      "goldReward": 500,
+      "drops": [
+        {
+          "itemId": "shadow_blade",
+          "chance": 0.15
+        },
+        {
+          "itemId": "shadow_essence",
+          "chance": 0.7
+        },
+        {
+          "itemId": "rare_gem",
+          "chance": 0.4
+        }
+      ]
+    },
+    "rewards": {
+      "exp": 400,
+      "gold": 600,
+      "items": [
+        "shadow_essence",
+        "mithril_ore"
+      ]
+    },
+    "requirements": {
+      "level": 10
+    },
+    "hidden": false
+  },
+  "deep_abyss": {
+    "name": "Deep Abyss",
+    "description": "Vực thẳm sâu nhất, nơi ẩn giấu Shadow Heart",
+    "level": 18,
+    "difficulty": "nightmare",
+    "type": "special",
+    "floors": 10,
+    "maxParty": 4,
+    "monstersPerFloor": 5,
+    "monsters": [
+      "shadow_beast",
+      "dark_knight",
+      "void_crawler"
+    ],
+    "boss": {
+      "name": "Abyss Lord",
+      "level": 20,
+      "hp": 2500,
+      "attack": 150,
+      "defense": 70,
+      "agility": 50,
+      "expReward": 800,
+      "goldReward": 1500,
+      "drops": [
+        {
+          "itemId": "shadow_heart",
+          "chance": 0.8
+        },
+        {
+          "itemId": "abyss_weapon",
+          "chance": 0.3
+        },
+        {
+          "itemId": "awakening_stone",
+          "chance": 0.5
+        }
+      ]
+    },
+    "rewards": {
+      "exp": 1000,
+      "gold": 2000,
+      "items": [
+        "shadow_heart"
+      ]
+    },
+    "requirements": {
+      "level": 18,
+      "questCompleted": "awaken_shadow"
+    },
+    "hidden": true,
+    "hiddenRequirements": {
+      "questCompleted": "awaken_shadow",
+      "dungeonsCleared": 15
+    }
+  },
+  "infinite_tower": {
+    "name": "Infinite Tower",
+    "description": "Tháp vô tận với thử thách không giới hạn",
+    "level": 15,
+    "difficulty": "expert",
+    "type": "infinite",
+    "floors": 999,
+    "maxParty": 1,
+    "monstersPerFloor": 3,
+    "monsters": [
+      "random"
+    ],
+    "rewards": {
+      "exp": "floor * 50",
+      "gold": "floor * 100",
+      "items": [
+        "floor_rewards"
+      ]
+    },
+    "requirements": {
+      "level": 15,
+      "awakened": true
+    },
+    "special": true,
+    "hidden": false
+  },
+  "raid_dragon_lair": {
+    "name": "Dragon Lair Raid",
+    "description": "Hang rồng Elder Dragon, cần nhiều người để thắng",
+    "level": 22,
+    "difficulty": "nightmare",
+    "type": "raid",
+    "floors": 1,
+    "maxParty": 8,
+    "monstersPerFloor": 0,
+    "boss": {
+      "name": "Elder Dragon",
+      "level": 25,
+      "hp": 5000,
+      "attack": 200,
+      "defense": 100,
+      "agility": 60,
+      "expReward": 2000,
+      "goldReward": 5000,
+      "drops": [
+        {
+          "itemId": "dragon_scale",
+          "chance": 0.9
+        },
+        {
+          "itemId": "dragon_weapon",
+          "chance": 0.4
+        },
+        {
+          "itemId": "legendary_box",
+          "chance": 0.6
+        }
+      ]
+    },
+    "rewards": {
+      "exp": 2000,
+      "gold": 3000,
+      "items": [
+        "dragon_scale"
+      ]
+    },
+    "requirements": {
+      "level": 20,
+      "awakeningLevel": 2
+    },
+    "hidden": false
+  }
+}

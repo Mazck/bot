@@ -1,0 +1,186 @@
+{
+  "goblin": {
+    "name": "Goblin",
+    "level": 1,
+    "hp": 80,
+    "attack": 20,
+    "defense": 8,
+    "agility": 15,
+    "expReward": 15,
+    "goldReward": 10,
+    "drops": [
+      {
+        "itemId": "health_potion",
+        "chance": 0.4
+      },
+      {
+        "itemId": "iron_ore",
+        "chance": 0.3
+      },
+      {
+        "itemId": "basic_sword",
+        "chance": 0.1
+      }
+    ]
+  },
+  "orc": {
+    "name": "Orc Warrior",
+    "level": 3,
+    "hp": 150,
+    "attack": 35,
+    "defense": 15,
+    "agility": 10,
+    "expReward": 35,
+    "goldReward": 25,
+    "drops": [
+      {
+        "itemId": "health_potion",
+        "chance": 0.5
+      },
+      {
+        "itemId": "iron_ore",
+        "chance": 0.4
+      },
+      {
+        "itemId": "iron_sword",
+        "chance": 0.15
+      },
+      {
+        "itemId": "leather_armor",
+        "chance": 0.2
+      }
+    ]
+  },
+  "skeleton": {
+    "name": "Skeleton Soldier",
+    "level": 5,
+    "hp": 200,
+    "attack": 45,
+    "defense": 20,
+    "agility": 20,
+    "expReward": 50,
+    "goldReward": 35,
+    "drops": [
+      {
+        "itemId": "mana_potion",
+        "chance": 0.3
+      },
+      {
+        "itemId": "steel_ore",
+        "chance": 0.25
+      },
+      {
+        "itemId": "magic_crystal",
+        "chance": 0.2
+      },
+      {
+        "itemId": "iron_armor",
+        "chance": 0.15
+      }
+    ]
+  },
+  "shadow_beast": {
+    "name": "Shadow Beast",
+    "level": 8,
+    "hp": 350,
+    "attack": 60,
+    "defense": 25,
+    "agility": 30,
+    "expReward": 80,
+    "goldReward": 60,
+    "drops": [
+      {
+        "itemId": "shadow_essence",
+        "chance": 0.3
+      },
+      {
+        "itemId": "steel_ore",
+        "chance": 0.4
+      },
+      {
+        "itemId": "rare_gem",
+        "chance": 0.15
+      },
+      {
+        "itemId": "steel_sword",
+        "chance": 0.1
+      }
+    ],
+    "shadowSkills": [
+      "shadow_strike"
+    ]
+  },
+  "dark_knight": {
+    "name": "Dark Knight",
+    "level": 12,
+    "hp": 600,
+    "attack": 85,
+    "defense": 40,
+    "agility": 25,
+    "expReward": 120,
+    "goldReward": 100,
+    "drops": [
+      {
+        "itemId": "shadow_essence",
+        "chance": 0.4
+      },
+      {
+        "itemId": "mithril_ore",
+        "chance": 0.2
+      },
+      {
+        "itemId": "rare_gem",
+        "chance": 0.25
+      },
+      {
+        "itemId": "steel_armor",
+        "chance": 0.2
+      },
+      {
+        "itemId": "awakening_stone",
+        "chance": 0.05
+      }
+    ],
+    "shadowSkills": [
+      "shadow_strike",
+      "shadow_defense"
+    ]
+  },
+  "elder_dragon": {
+    "name": "Elder Dragon",
+    "level": 20,
+    "hp": 1500,
+    "attack": 150,
+    "defense": 60,
+    "agility": 40,
+    "expReward": 300,
+    "goldReward": 500,
+    "drops": [
+      {
+        "itemId": "shadow_heart",
+        "chance": 0.1
+      },
+      {
+        "itemId": "shadow_essence",
+        "chance": 0.8
+      },
+      {
+        "itemId": "mithril_ore",
+        "chance": 0.5
+      },
+      {
+        "itemId": "shadow_blade",
+        "chance": 0.15
+      },
+      {
+        "itemId": "stat_reset_stone",
+        "chance": 0.2
+      }
+    ],
+    "shadowSkills": [
+      "shadow_strike",
+      "shadow_defense",
+      "shadow_heal"
+    ]
+  }
+}

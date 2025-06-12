@@ -1,0 +1,247 @@
+{
+  "basic_sword": {
+    "name": "Basic Sword",
+    "type": "equipment",
+    "equipSlot": "weapon",
+    "equipable": true,
+    "rarity": "common",
+    "levelRequired": 1,
+    "price": 100,
+    "sellable": true,
+    "stats": {
+      "attack": 15
+    },
+    "upgrade": 0,
+    "maxUpgrade": 15
+  },
+  "iron_sword": {
+    "name": "Iron Sword",
+    "type": "equipment",
+    "equipSlot": "weapon",
+    "equipable": true,
+    "rarity": "rare",
+    "levelRequired": 5,
+    "price": 300,
+    "sellable": true,
+    "stats": {
+      "attack": 30
+    },
+    "upgrade": 0,
+    "maxUpgrade": 15
+  },
+  "steel_sword": {
+    "name": "Steel Sword",
+    "type": "equipment",
+    "equipSlot": "weapon",
+    "equipable": true,
+    "rarity": "epic",
+    "levelRequired": 10,
+    "price": 800,
+    "sellable": true,
+    "stats": {
+      "attack": 50,
+      "critRate": 5
+    },
+    "upgrade": 0,
+    "maxUpgrade": 15
+  },
+  "shadow_blade": {
+    "name": "Shadow Blade",
+    "type": "equipment",
+    "equipSlot": "weapon",
+    "equipable": true,
+    "rarity": "legendary",
+    "levelRequired": 20,
+    "classRequired": "shadow_monarch",
+    "price": 5000,
+    "sellable": true,
+    "stats": {
+      "attack": 100,
+      "critRate": 15,
+      "critDamage": 30
+    },
+    "upgrade": 0,
+    "maxUpgrade": 15
+  },
+  "leather_armor": {
+    "name": "Leather Armor",
+    "type": "equipment",
+    "equipSlot": "armor",
+    "equipable": true,
+    "rarity": "common",
+    "levelRequired": 1,
+    "price": 80,
+    "sellable": true,
+    "stats": {
+      "defense": 12,
+      "hp": 20
+    }
+  },
+  "iron_armor": {
+    "name": "Iron Armor",
+    "type": "equipment",
+    "equipSlot": "armor",
+    "equipable": true,
+    "rarity": "rare",
+    "levelRequired": 5,
+    "price": 250,
+    "sellable": true,
+    "stats": {
+      "defense": 25,
+      "hp": 50
+    }
+  },
+  "steel_armor": {
+    "name": "Steel Armor",
+    "type": "equipment",
+    "equipSlot": "armor",
+    "equipable": true,
+    "rarity": "epic",
+    "levelRequired": 10,
+    "price": 600,
+    "sellable": true,
+    "stats": {
+      "defense": 45,
+      "hp": 100,
+      "vitality": 5
+    }
+  },
+  "power_ring": {
+    "name": "Ring of Power",
+    "type": "equipment",
+    "equipSlot": "ring1",
+    "equipable": true,
+    "rarity": "rare",
+    "levelRequired": 8,
+    "price": 400,
+    "sellable": true,
+    "stats": {
+      "attack": 20,
+      "strength": 3
+    }
+  },
+  "mana_necklace": {
+    "name": "Mana Necklace",
+    "type": "equipment",
+    "equipSlot": "necklace",
+    "equipable": true,
+    "rarity": "epic",
+    "levelRequired": 12,
+    "price": 700,
+    "sellable": true,
+    "stats": {
+      "mana": 50,
+      "intelligence": 5
+    }
+  },
+  "health_potion": {
+    "name": "Health Potion",
+    "type": "consumable",
+    "rarity": "common",
+    "price": 25,
+    "sellable": true,
+    "effect": "heal",
+    "value": 100,
+    "description": "Hồi phục 100 HP"
+  },
+  "mana_potion": {
+    "name": "Mana Potion",
+    "type": "consumable",
+    "rarity": "common",
+    "price": 30,
+    "sellable": true,
+    "effect": "restore_mana",
+    "value": 50,
+    "description": "Hồi phục 50 Mana"
+  },
+  "exp_potion": {
+    "name": "Experience Potion",
+    "type": "consumable",
+    "rarity": "rare",
+    "price": 200,
+    "sellable": true,
+    "effect": "bonus_exp",
+    "value": 500,
+    "description": "Nhận thêm 500 EXP"
+  },
+  "iron_ore": {
+    "name": "Iron Ore",
+    "type": "material",
+    "rarity": "common",
+    "price": 10,
+    "sellable": true,
+    "description": "Nguyên liệu cơ bản để rèn trang bị"
+  },
+  "steel_ore": {
+    "name": "Steel Ore",
+    "type": "material",
+    "rarity": "rare",
+    "price": 30,
+    "sellable": true,
+    "description": "Nguyên liệu cao cấp để rèn trang bị"
+  },
+  "mithril_ore": {
+    "name": "Mithril Ore",
+    "type": "material",
+    "rarity": "epic",
+    "price": 100,
+    "sellable": true,
+    "description": "Nguyên liệu hiếm để rèn trang bị truyền thuyết"
+  },
+  "magic_crystal": {
+    "name": "Magic Crystal",
+    "type": "material",
+    "rarity": "rare",
+    "price": 50,
+    "sellable": true,
+    "description": "Tinh thể phép thuật"
+  },
+  "rare_gem": {
+    "name": "Rare Gem",
+    "type": "material",
+    "rarity": "epic",
+    "price": 150,
+    "sellable": true,
+    "description": "Ngọc quý hiếm"
+  },
+  "shadow_essence": {
+    "name": "Shadow Essence",
+    "type": "material",
+    "rarity": "legendary",
+    "price": 300,
+    "sellable": true,
+    "description": "Tinh chất của bóng tối"
+  },
+  "awakening_stone": {
+    "name": "Awakening Stone",
+    "type": "special",
+    "rarity": "legendary",
+    "price": 1000,
+    "sellable": false,
+    "description": "Vật phẩm để thức tỉnh lại"
+  },
+  "stat_reset_stone": {
+    "name": "Stat Reset Stone",
+    "type": "special",
+    "rarity": "epic",
+    "price": 500,
+    "sellable": false,
+    "description": "Reset tất cả chỉ số"
+  },
+  "skill_book_rare": {
+    "name": "Rare Skill Book",
+    "type": "special",
+    "rarity": "rare",
+    "price": 300,
+    "sellable": false,
+    "description": "Học kỹ năng ngẫu nhiên"
+  },
+  "shadow_heart": {
+    "name": "Shadow Heart",
+    "type": "special",
+    "rarity": "mythical",
+    "price": 10000,
+    "sellable": false,
+    "description": "Trái tim của Bóng tối, cần thiết để trở thành Shadow Monarch"
+  }
+}
