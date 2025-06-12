@@ -1,0 +1,70 @@
+[
+    {
+        "threadID": "7827795683943523",
+        "messages": [
+            {
+                "id": "HbGSnvoSBT",
+                "time": "54 12 * * *",
+                "timeDisplay": "12:54 hằng ngày",
+                "content": "",
+                "type": "photo",
+                "mediaUrls": [
+                    "https://scontent.xx.fbcdn.net/v/t1.15752-9/494577019_2968600356649373_4825058279933205560_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=rpg8dZpLQE0Q7kNvwGWnKAu&_nc_oc=AdkJb8FBlOgOI4Vmma6U61Lgzna_7Gfyqh-FbvuAc90ZCq9Gxw4qd0pJymt2KX-9A3Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD2gFXeB5le12aNBzmR5tgg5FDMRjnBgduxHsXTFSPqACgOg&oe=68675B9E"
+                ],
+                "target": {
+                    "type": "all",
+                    "threadIDs": []
+                },
+                "active": true,
+                "createdAt": "2025-06-04T05:09:46.072Z",
+                "updatedAt": "2025-06-04T05:53:04.641Z"
+            },
+            {
+                "id": "VrcYVKyIzv",
+                "time": "47 12 * * *",
+                "timeDisplay": "12:47 hằng ngày",
+                "content": "",
+                "type": "audio",
+                "mediaUrls": [
+                    "https://cdn.fbsbx.com/v/t59.3654-21/503612886_1057276975800203_367957152877569758_n.mp4/audioclip-1749014446000-1370.mp4?_nc_cat=106&_nc_cb=47395efc-58e9a73e&ccb=1-7&_nc_sid=d61c36&_nc_ohc=FFogcSd_-zAQ7kNvwGNbSgF&_nc_oc=Adl_XHPjGcgiJhrrueC4GZSgoUutyuLrHytxVQqeZf8O1hkXdTS1yClh2fofTYX7OKQ&_nc_zt=28&_nc_ht=cdn.fbsbx.com&_nc_gid=xarJSxSnyGyqEV49pCNR_A&oh=03_Q7cD2gHuTtbrnFGliAFHLp0vwS3ca2em3jThC_pw6BR4DUL0yw&oe=6841C1C0&dl=1"
+                ],
+                "target": {
+                    "type": "all",
+                    "threadIDs": []
+                },
+                "active": true,
+                "createdAt": "2025-06-04T05:20:56.198Z"
+            },
+            {
+                "id": "AEHhIBdTIy",
+                "time": "49 12 * * *",
+                "timeDisplay": "12:49 hằng ngày",
+                "content": "Abc",
+                "type": "text",
+                "mediaUrls": [],
+                "target": {
+                    "type": "all",
+                    "threadIDs": []
+                },
+                "active": true,
+                "createdAt": "2025-06-04T05:48:17.169Z"
+            },
+            {
+                "id": "UHfjcCnGRA",
+                "time": "01 13 * * *",
+                "timeDisplay": "13:01 hằng ngày",
+                "content": "",
+                "type": "photo",
+                "mediaUrls": [
+                    "https://scontent.xx.fbcdn.net/v/t1.15752-9/495046411_1041796217537548_4627921960321563191_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=9aIfTgt2askQ7kNvwEDjDfh&_nc_oc=AdkGYFS_FkRw2QF1Dr5myNWT3K3SGSteuKKOckAbBkeaiYm2BQUVVmgzf9Z82hUgQF0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD2gFuLAnZ0YvLsgMV9mU_xOMpSrWx9SXrwLMt9M-STJMKLg&oe=68675C44"
+                ],
+                "target": {
+                    "type": "all",
+                    "threadIDs": []
+                },
+                "active": true,
+                "createdAt": "2025-06-04T06:00:29.231Z"
+            }
+        ]
+    }
+]
